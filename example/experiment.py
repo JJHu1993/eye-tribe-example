@@ -37,7 +37,7 @@ from pytribe import EyeTribe
 # CONSTANTS
 
 # screen stuff
-RESOLUTION = (1920,1080)
+RESOLUTION = (1280,1024)
 BGC = (0,0,0)
 
 # files and paths
@@ -89,7 +89,7 @@ for imgname in images.keys():
 	tracker.start_recording()
 	print 't2: '+repr(time.time())
 	# wait for a bit
-	pygame.time.wait(5000)
+	pygame.time.wait(3000)
 	print 't3:'+repr(time.time())
 	# stop recording
 	tracker.stop_recording()
@@ -100,7 +100,7 @@ for imgname in images.keys():
 	tracker.log_message("image_off")
 
 	# wait for a bit
-	pygame.time.wait(5000)
+	pygame.time.wait(1000)
 
 
 # # # # #
