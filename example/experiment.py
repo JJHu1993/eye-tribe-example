@@ -37,7 +37,7 @@ from pytribe import EyeTribe
 # CONSTANTS
 
 # screen stuff
-RESOLUTION = (1280,1024)
+RESOLUTION = (1920,1080)
 BGC = (0,0,0)
 
 # files and paths
