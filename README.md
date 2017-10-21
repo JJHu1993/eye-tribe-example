@@ -1,2 +1,1 @@
-# eye-tribe-example
-Eye tribe example using pytribe.
+Eye tracking example using eye tribe tracker.
